@@ -22,7 +22,7 @@ function betolt() {
     const labelForCity = document.createElement('label');
     labelForCity.htmlFor = 'city';
     labelForCity.textContent = 'Válassz egy várost';
-
+    //itt van változás
     // select létrehozása
     const selectCity = document.createElement('select');
     selectCity.id = 'city';
